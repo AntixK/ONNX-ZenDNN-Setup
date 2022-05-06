@@ -1,0 +1,16 @@
+ninja 
+pyyaml 
+setuptools 
+cmake 
+cffi 
+typing_extensions 
+future 
+six 
+requests 
+dataclasses 
+astunparse
+numpy
+scipy 
+pillow
+rich
+tqdm

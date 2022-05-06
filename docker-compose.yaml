@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  # Image for the DXDL developer
+  zendnn:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/home/zendnn
+    container_name: zendnn
